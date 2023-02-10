@@ -4,8 +4,8 @@
 const showModalBtn = document.querySelector(".show-modal");
 const modal = document.querySelector(".modal");
 const backDrop = document.querySelector(".backdrop");
-const closeModal = document.querySelector(".close-modal")
-const confirm = document.querySelector(".confrim-modal")
+const closeModal = document.querySelector(".close-modal");
+const confirm = document.querySelector(".confrim-modal");
 
 showModalBtn.addEventListener("click", () => {
     modal.style.opacity = "1";
@@ -21,7 +21,4 @@ function close (){
 
 closeModal.addEventListener("click", close);
 backDrop.addEventListener("click", close);
-confirm.addEventListener("click", close)
-
-
-
+confirm.addEventListener("click", close);
